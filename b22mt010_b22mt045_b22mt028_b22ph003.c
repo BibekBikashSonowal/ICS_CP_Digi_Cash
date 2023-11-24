@@ -24,7 +24,6 @@ int main() {
             switch (choice) {
                 case 1:
                     printf("Your account balance: ₹%.2f\n", accountBalance);
-                    t = 1;
                     break;
                 case 2:
                     printf("Enter the amount to withdraw: ₹");
@@ -35,7 +34,6 @@ int main() {
                     } 
                     else 
                         printf("Invalid amount or insufficient balance.\n");
-                    t = 1;
                     break;
                 case 3:
                     printf("Enter the amount to deposit: ₹");
@@ -46,7 +44,6 @@ int main() {
                     } 
                     else
                         printf("Invalid amount.\n");
-                    t = 1;
                     break;
                 case 4:
                     printf("\nExiting the ATM.\nThank you!\n");
