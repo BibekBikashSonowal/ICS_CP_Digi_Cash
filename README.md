@@ -1,6 +1,6 @@
 # ICS_CP_Digi_Cash
 We first initialize the Balance amount and 4 digit pin code.
-We use a while loop to repeat the user for input until the user chooses to exit(option 4).
+We use a while loop(t == 1) to repeat the user for input until the user chooses to exit(option 4).
 We take input four atm pin from user,if pin is correct we give the four choice.
 1. Balance Checking             2. Cash Withdrawal
 3. Cash Deposition              4. Exit
