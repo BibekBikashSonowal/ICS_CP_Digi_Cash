@@ -3,9 +3,7 @@
 int main() {
     int Pin = 1234;
     double accountBalance = 5000.0;
-
-    int pin;
-    int choice;
+    int pin,choice;
     double amount;
     int t = 1;
     while (t == 1) {
