@@ -14,7 +14,7 @@ Option 1 for Balance check, it displays the account balance.
 
 Option 2 for Cash Withdrawal.
 We take input as a "amount" for withdrawal.
-Here if else statement if "amount" is grater then 0 or less than equal to Balance. If that statement is True then we update account Balance to "account Balance - amount" and  display the amount. 
+Here if else statement if "amount" is grater than 0 or less than equal to Balance. If that statement is True then we update account Balance to "account Balance - amount" and  display the amount. 
 If it is False it display "Invalid amount or insufficient balance".
 
 Option 3 for Cash Deposition
