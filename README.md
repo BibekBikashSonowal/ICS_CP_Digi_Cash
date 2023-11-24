@@ -2,7 +2,7 @@
 We first initialize the Balance amount and 4 digit pin code.
 
 We use a while loop(t == 1) to repeat the user for input until the user chooses to exit(option 4).
-We take input four atm pin from user,if pin is correct we give the four choice.
+We take input four atm pin from user,if initialize pin equal to the input pin we get the four choice.
 
 1. Balance Checking             2. Cash Withdrawal
 3. Cash Deposition              4. Exit
@@ -23,3 +23,5 @@ If it is False it display  "Invalid amount".
 
 Option 4 for Exit we update t = 0,
 We display "Exiting the ATM. Thank you!".
+
+if initialize pin is not equal to the input pin it display "Incorrect ATM PIN. Please try again".
