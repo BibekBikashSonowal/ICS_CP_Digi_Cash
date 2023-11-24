@@ -21,7 +21,7 @@ We take input as a "amount" for Cash Deposition.
 Here if else statement if "amount" is grater then 0". If that statement is True then we update account Balance to "account Balance + amount" and display the amount.
 If it is False it display  "Invalid amount".
 
-Option 4 for Exit we update t = 0,
-We display "Exiting the ATM. Thank you!".
+Option 4 for Exit we update t = 0, which is help to exit from while loop
+And display "Exiting the ATM. Thank you!".
 
 if initialize pin is not equal to the input pin it display "Incorrect ATM PIN. Please try again".
